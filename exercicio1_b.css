@@ -1,0 +1,45 @@
+body{
+  background-color: #000;
+}
+
+div{
+  background-color: #555;
+  margin-bottom: 20px;
+}
+.container{
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin: auto; 
+  padding: 20px;
+}
+.barras1{
+  background-color: orange;
+  height: 5%;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+.barras2{
+  background-color: red;
+  height: 5%;
+  width: 73.5%;
+  flex-direction: row-reverse;
+}
+.barras3{
+  background-color: purple;
+  height: 5%;
+  width: 22.23%;
+  flex-direction: row-reverse;
+}
+.barras4{
+  background-color: green;
+  height: 5%;
+  width: 18.4%;
+  flex-direction: row-reverse;
+}
+.barras5{
+  background-color: grey;
+  height: 5%;
+  width: 13.5%;
+  flex-direction: row-reverse;
+}

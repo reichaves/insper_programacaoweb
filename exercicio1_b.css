@@ -1,45 +1,44 @@
 body{
   background-color: #000;
+  font-family: Helvetica, Arial, sans serif;
 }
-
-div{
-  background-color: #555;
-  margin-bottom: 20px;
+*{
+  box-sizing: border-box;
 }
 .container{
   background-color: #fff;
-  width: 400px;
+  width: 600px;
   height: 400px;
   margin: auto; 
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
-.barras1{
-  background-color: orange;
-  height: 5%;
+.barra{
+  height: calc((100% - 15px)/5);
   width: 100%;
-  flex-direction: column;
+  padding: 10px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #ff0099;
 }
-.barras2{
+.barra.eua{
+  height: 91.76%;
+  background-color: orange;
+}
+.barra.china{
+  height: 67.44%;
   background-color: red;
-  height: 5%;
-  width: 73.5%;
-  flex-direction: column;
 }
-.barras3{
+.barra.japao{
+  height: 20.40%;
   background-color: purple;
-  height: 5%;
-  width: 22.23%;
-  flex-direction: column;
 }
-.barras4{
+.barra.alemanha{
+  height: 16.92%;
   background-color: green;
-  height: 5%;
-  width: 18.4%;
-  flex-direction: column;
 }
-.barras5{
+.barra.reino-unido{
+  height: 12.44%;
   background-color: grey;
-  height: 5%;
-  width: 13.5%;
-  flex-direction: column;
 }
